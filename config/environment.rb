@@ -6,7 +6,6 @@ Rails.application.initialize!
 ActionMailer::Base.smtp_settings = {
   address: "smtp.gmail.com",
   port: 587,
-  domain: "http://dhaval-photo-app.herokuapp.com/",
   authentication: "plain",
   enable_starttls_auto: true,
   user_name: ENV["gmail_username"],
