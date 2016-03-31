@@ -11,7 +11,7 @@
     <% artifacts.each do |artifact| %>
       <tr>
         <td><%= link_to artifact.name, artifact_path(artifact), class: 'main-link' %></td>
-        <td><%= artifact.key %></td>
+        <td><%= link_to artifact.key, artifact.key_url %></td>
         <td>
           <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
                       artifact_path(artifact),
