@@ -7,7 +7,7 @@ gem 'rails', '4.2.6'
 gem 'pg', '~> 0.15'
 gem 'devise'
 gem 'milia'
-
+gem 'carrierwave'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets

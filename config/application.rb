@@ -5,7 +5,8 @@ require 'devise'
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
-
+require 'carrierwave/orm/activerecord'
+require 'carrierwave'
 module SaasProjectApp
   class Application < Rails::Application
      
