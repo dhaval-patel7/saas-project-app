@@ -32,4 +32,9 @@ ALERT_TYPES = [:success, :info, :warning, :danger] unless const_defined?(:ALERT_
     Tenant.find(tenant_id).name
   end
 
+  def class_name_for_tenant_form(tenant)
+    return "cc_form" if tenant.payment.blank?
+    ""
+  end
+
 end

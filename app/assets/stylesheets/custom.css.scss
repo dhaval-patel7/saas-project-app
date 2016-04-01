@@ -102,3 +102,8 @@ a:hover, a:focus {
     background: none;
   }
 }
+
+.no-side-padding {
+  padding-left: 0 !important;
+  padding-right: 0 !important; 
+}
