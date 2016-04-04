@@ -107,3 +107,21 @@ a:hover, a:focus {
   padding-left: 0 !important;
   padding-right: 0 !important; 
 }
+
+.fa.fa-rocket {
+  background: #fff;
+  border: 1px solid white;
+  border-radius: 30px;
+  color: tomato;
+  padding: 8px;
+}
+
+.logout {
+  padding-left: 0;
+}
+
+.navbar.navbar-static-top {
+  background: #010010;
+  color: #fff !important;
+  padding-bottom: 5px;
+}
